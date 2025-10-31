@@ -1,4 +1,4 @@
-package produto.*;
+package produto;
 public class ProdutoEletronico extends Produto{
     private int garantiaMeses;
     public ProdutoEletronico(String nome, double preco, int garantiaMeses){
@@ -13,9 +13,9 @@ public class ProdutoEletronico extends Produto{
     }
     @Override
     public void exibirDetalhes(){
-        System.out.println("Nome: "+getNome());
-        System.out.printf("Preço: %.2f\n"+getPreco());
-        System.out.println("Garantia: "+getGarantiaMeses+"meses\n ");
+        System.out.println("Nome: " + getNome());
+        System.out.printf("Preço: R$ %.2f\n", getPreco());
+        System.out.println("Garantia: " + getGarantiaMeses() + " meses\n");
 
     }
 

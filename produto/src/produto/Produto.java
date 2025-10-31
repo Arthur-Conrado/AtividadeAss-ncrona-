@@ -1,23 +1,23 @@
-
+package produto;
 public abstract class Produto {
     private String nome;
-    private Strinh preco;
+    private double preco;
 
     public Produto(String nome, double preco){
-        this.nome=nome;
-        this.preco=preco;
+        this.nome = nome;
+        this.preco = preco;
     }
     public String getNome(){
         return nome;
     }
     public void setNome(String nome){
-        this.nome=nome;
+        this.nome = nome;
     }
     public double getPreco(){
         return preco;
     }
-    public void setPreco(double peco){
-        this.preco=preco;
+    public void setPreco(double preco){
+        this.preco = preco;
     }
     public abstract void exibirDetalhes();
 

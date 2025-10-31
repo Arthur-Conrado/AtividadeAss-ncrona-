@@ -1,10 +1,10 @@
-package protudo.Produto;
 
+import produto.ProdutoEletronico;
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ProdutoEletronico [] produto = new ProdutoEletronico[3];
+        ProdutoEletronico[] produtos = new ProdutoEletronico[3];
         System.out.println("=== CADASTRO DE PRODUTOS ELETRÔNICOS ===\n");
 
         for (int i = 0; i < produtos.length; i++) {
